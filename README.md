@@ -1,5 +1,6 @@
 # Sparse Matrix Vector Multiplication
 ## Run Instruction
-g++ <file name>.cpp -std=c++11 -pthread -o <file name>.exe
+g++ spmspv.cpp -std=c++11 -pthread -o spmspv
 
-then, open <file name>
+then by openning spmspv file, the performance results will be save in a csv file.
+You cna see results visualized by running visualize.ipynb, which use csv file to draw charts.
